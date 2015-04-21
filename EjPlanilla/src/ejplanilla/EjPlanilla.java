@@ -6,6 +6,8 @@
 
 package ejplanilla;
 
+import vista.frmPlanilla;
+
 /**
  *
  * @author PCVirtual
@@ -17,6 +19,8 @@ public class EjPlanilla {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        frmPlanilla frm = new frmPlanilla();
+        frm.setVisible(true);
     }
     
 }

@@ -22,18 +22,12 @@ public class Detalle {
     private List<Detalle> lstDetalle;
 
     public Detalle() {
-        this.emp=new Empleado();
-        this.pla = new Planilla();
-        
         lstDetalle = new ArrayList();
     }
 
     public Detalle(Empleado emp, Planilla pla) {
         this.emp = emp;
         this.pla = pla;
-        calcular();
-    }
-    private void calcular(){
         renta = emp.getSueldo() * 0.1;
         if(pla.getMes().equals("Diciembre")){
             bono = emp.getSueldo() * 0.3;
