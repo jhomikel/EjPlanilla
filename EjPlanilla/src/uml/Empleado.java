@@ -27,6 +27,7 @@ public class Empleado {
 
     public String getNombre() {
         return nombre;
+        /**/
     }
 
     public void setNombre(String nombre) {

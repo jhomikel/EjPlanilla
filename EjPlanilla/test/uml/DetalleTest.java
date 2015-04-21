@@ -16,12 +16,16 @@ import static org.junit.Assert.*;
  */
 public class DetalleTest {
     
+    
     public DetalleTest() {
+        
+        
     }
 
     @Test
     public void testSomeMethod() {
-        fail("The test case is a prototype.");
+       
+        
     }
     
 }

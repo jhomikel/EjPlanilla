@@ -22,6 +22,9 @@ public class Detalle {
     private List<Detalle> lstDetalle;
 
     public Detalle() {
+        this.emp=new Empleado();
+        this.pla = new Planilla();
+        
         lstDetalle = new ArrayList();
     }
 

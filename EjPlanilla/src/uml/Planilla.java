@@ -31,6 +31,7 @@ public class Planilla {
 
     public void setMes(String mes) {
         this.mes = mes;
+        /**/
     }
     
 }
