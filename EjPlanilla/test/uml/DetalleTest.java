@@ -24,7 +24,16 @@ public class DetalleTest {
 
     @Test
     public void testSomeMethod() {
-       
+        Detalle det = new Detalle();
+        det.getEmp().setCarnet(1);
+        det.getEmp().setNombre("Jhony");
+        det.getEmp().setSueldo(500.00);
+        det.getPla().setId(42015);
+        det.getPla().setMes("Abril");
+        det.getLstDetalle().add(new Detalle(det.getEmp(), det.getPla()));
+        for (Detalle iterar : det.getLstDetalle()) {
+            System.out.println("Nombre: " + det.getEmp().getNombre());
+        }
         
     }
     
